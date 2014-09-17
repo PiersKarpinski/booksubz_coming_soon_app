@@ -11,7 +11,7 @@ $(function() {
     $.scrollTo(
       $(this).attr("href"),
       {
-        duration: 3000,
+        duration: 1000,
         offset: { 'left':0, 'top':-150 }
       }
     );
@@ -24,7 +24,7 @@ $(function() {
     $.scrollTo(
       $(this).attr("href"),
       {
-        duration: 3000,
+        duration: 1000,
         offset: { 'left':0, 'top':-150 }
       }
     );
