@@ -7,6 +7,7 @@ $(function() {
   //////----- scrollTo (up)
 
   $arrow_links_up.click( function(event) {
+    event.preventDefault();
     $.scrollTo(
       $(this).attr("href"),
       {
@@ -19,6 +20,7 @@ $(function() {
   //////----- scrollTo (down)
 
   $arrow_links_down.click( function(event) {
+    event.preventDefault();
     $.scrollTo(
       $(this).attr("href"),
       {
