@@ -930,7 +930,11 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     margin-bottom: 10px;
 }
 
-.arrow {
+.arrow_down {
+    margin-bottom: 500px;
+}
+
+.arrow_up {
     margin-bottom: 500px;
 }
 
@@ -938,7 +942,5 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     margin-bottom: 100px;
 }
 
-.bottom {
-    margin-bottom: 400px;
-}
+
 
