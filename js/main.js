@@ -11,7 +11,7 @@ $(function() {
       $(this).attr("href"),
       {
         duration: 1000,
-        offset: { 'left':0, 'top':-200 }
+        offset: { 'left':0, 'top':-150 }
       }
     );
   });
@@ -23,7 +23,7 @@ $(function() {
       $(this).attr("href"),
       {
         duration: 1000,
-        offset: { 'left':0, 'top':-200 }
+        offset: { 'left':0, 'top':-150 }
       }
     );
   });
