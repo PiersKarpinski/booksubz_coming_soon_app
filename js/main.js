@@ -10,7 +10,7 @@ $(function() {
     $.scrollTo(
       $(this).attr("href"),
       {
-        duration: 1000,
+        duration: 3000,
         offset: { 'left':0, 'top':-150 }
       }
     );
@@ -22,7 +22,7 @@ $(function() {
     $.scrollTo(
       $(this).attr("href"),
       {
-        duration: 1000,
+        duration: 3000,
         offset: { 'left':0, 'top':-150 }
       }
     );
