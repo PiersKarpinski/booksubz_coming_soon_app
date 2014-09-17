@@ -12,10 +12,12 @@ $(function() {
       $(this).attr("href"),
       {
         duration: 1000,
-        offset: { 'left':0, 'top':-150 }
+        offset: { 'left':0, 'top':-150 },
+        axis: 'y'
       }
     );
   });
+
 
   //////----- scrollTo (down)
 
@@ -25,7 +27,8 @@ $(function() {
       $(this).attr("href"),
       {
         duration: 1000,
-        offset: { 'left':0, 'top':-150 }
+        offset: { 'left':0, 'top':-150 },
+        axis: 'y'
       }
     );
   });
