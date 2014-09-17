@@ -930,8 +930,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     margin-bottom: 10px;
 }
 
-.coming_soon {
-    margin-bottom: 100px;
+.arrow {
+    margin-bottom: 500px;
 }
 
 .tags {
@@ -939,5 +939,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 
 .bottom {
-    margin-bottom: 30px;
+    margin-bottom: 400px;
 }
+
