@@ -4,9 +4,9 @@ $(function() {
   var $arrow_links_up = $(".arrow_up")
 
 
-  //////----- scrollTo (down)
+  //////----- scrollTo (up)
 
-  $arrow_links_down.click( function(event) {
+  $arrow_links_up.click( function(event) {
     $.scrollTo(
       $(this).attr("href"),
       {
@@ -16,9 +16,9 @@ $(function() {
     );
   });
 
-  //////----- scrollTo (up)
+  //////----- scrollTo (down)
 
-  $arrow_links_up.click( function(event) {
+  $arrow_links_down.click( function(event) {
     $.scrollTo(
       $(this).attr("href"),
       {
